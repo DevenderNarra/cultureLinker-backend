@@ -1,0 +1,8 @@
+POST http://localhost:3000/api/total-value
+Content-Type: application/json
+
+[
+  { "name": "Bat", "price": 1500, "quantity": 2 },
+  { "name": "watch", "price": 500, "quantity": 1 },
+  { "name": "ring", "price": 15000, "quantity": 1 }
+]
